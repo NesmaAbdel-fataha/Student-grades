@@ -1,0 +1,57 @@
+body {
+  font-family: "Tahoma", sans-serif;
+  background: #f7f7f7;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 15px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+section {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.month {
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.avg, .final-avg {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+@media print {
+  button {
+    display: none;
+  }
+}
